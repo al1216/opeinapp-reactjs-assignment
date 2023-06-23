@@ -1,0 +1,137 @@
+.right-main {
+    display: flex;
+    height: 100%;
+    width: 85.2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.wrapper-caption{
+    display: flex;
+    flex-direction: column;
+    width: 38.5rem;
+}
+
+.sign-in-caption {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-name {
+    color: #000;
+    font-size: 3.6rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.sign-in-text {
+    color: #000;
+    font-size: 1.6rem;
+    font-family: Lato;
+}
+
+.login-signup-buttons {
+    display: flex;
+    gap: 2rem;
+    width: 38.5rem;
+}
+
+.google-button,
+.apple-button {
+    width: 16rem;
+    height: 3rem;
+    display: flex;
+    border-radius: 1rem;
+    background: #FFF;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.google-caption,
+.google-caption {
+    color: var(--secondary-text, #858585);
+    text-align: center;
+    font-size: 1rem;
+    font-family: Montserrat;
+}
+
+.google-icon,
+.apple-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.form-right {
+    display: flex;
+    flex-direction: column;
+    width: 38.5rem;
+    height: 31.7rem;
+    border-radius: 2rem;
+    background: #FFF;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: baseline;
+    padding-left: 3rem;
+}
+
+.label-email,
+.label-password {
+    color: #000;
+    font-size: 1.6rem;
+    font-family: Lato;
+}
+
+.email,
+.password {
+    width: 32.5rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background: var(--background, #F5F5F5);
+    border: none;
+    box-sizing: border-box;
+    padding-left: 1.5rem;
+    color: #000;
+    font-size: 1.6rem;
+    font-family: Lato;
+}
+
+.password {
+    border-radius: 1rem;
+    background: var(--field-color-darker, #EAEAEA);
+}
+
+.label-forgot-password {
+    color: var(--link, #346BD4);
+    font-size: 1.6rem;
+    font-family: Lato;
+}
+
+.sign-in-btn {
+    width: 32.5rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.register-caption-btn {
+    color: #858585;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: Lato;
+}
+
+span{
+    color: #346BD4;
+    cursor: pointer;
+}

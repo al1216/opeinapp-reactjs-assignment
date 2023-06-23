@@ -1,0 +1,15 @@
+.left-main {
+    display: flex;
+    width: 58.8rem;
+    height: 100%;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-left {
+    color: #FFF;
+    font-size: 7.2rem;
+    font-family: Montserrat;
+    font-weight: 700;
+}

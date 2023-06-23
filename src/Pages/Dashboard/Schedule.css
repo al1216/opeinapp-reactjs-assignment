@@ -1,0 +1,72 @@
+.schedule-right {
+    display: flex;
+    flex-direction: column;
+    width: 52rem;
+    height: 20rem;
+    border-radius: 2rem;
+    background: #FFF;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    justify-content: space-between;
+}
+
+.schedule-seall {
+    display: flex;
+    justify-content: space-between;
+}
+
+.schedule-heading {
+    color: #000;
+    font-size: 1.8rem;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.seall-caption {
+    color: var(--secondary-text, #858585);
+    font-size: 1.2rem;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+
+.schedule1,
+.schedule2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.vertical-line1,
+.vertical-line2 {
+    width: 0.5rem;
+    height: 5.5rem;
+    background: #9BDD7C;
+}
+
+.vertical-line2 {
+    background: #6972C3;
+}
+
+.meeting-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.meeting-name {
+    color: #666;
+    font-size: 1.4rem;
+    font-family: Lato;
+    font-weight: 700;
+    margin: 0;
+}
+
+.meeting-time,
+.meeting-venue {
+    color: var(--icon, #999);
+    font-size: 1.2rem;
+    font-family: Lato;
+    margin: 0;
+}

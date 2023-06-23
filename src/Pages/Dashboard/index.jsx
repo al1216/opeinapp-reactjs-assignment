@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './style.css';
+import Left from './Left';
+import Right from './Right';
 
 export default function Index() {
   return (
-    <div>index</div>
+    <div className="conatiner-dash">
+        <Left />
+        <Right />
+    </div>
   )
 }

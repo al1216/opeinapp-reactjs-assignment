@@ -1,0 +1,76 @@
+.left-dash {
+    width: 28rem;
+    height: 76.5rem;
+    border-radius: 3rem;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 3rem;
+}
+
+.board-up {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.dash-heading {
+    color: #FFF;
+    font-size: 3.6rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.dashboard-left,
+.trans-left,
+.schedules-left,
+.users-left,
+.settings-left {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dash-icon,
+.trans-icon,
+.schedules-icon,
+.users-icon,
+.settings-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.dash-caption {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.trans-caption,
+.schedules-caption,
+.users-caption,
+.settings-caption {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-family: Montserrat;
+}
+
+.board-down {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.help-caption,
+.contact-us-caption {
+    color: #FFF;
+    font-size: 1.4rem;
+    font-family: Montserrat;
+    cursor: pointer;
+
+}

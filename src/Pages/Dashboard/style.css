@@ -1,0 +1,14 @@
+.conatiner-dash{
+    display: flex;
+    gap: 4rem;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    background: var(--background, #F5F5F5);
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.product-schedule{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&family=Open+Sans:wght@700&display=swap');
+
+.insights-right {
+    display: flex;
+    gap: 2rem;
+    height: 12rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 22.1rem;
+    height: 12rem;
+    border-radius: 2rem;
+    background: #DDEFE0;
+    box-sizing: border-box;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2 {
+    width: 22.1rem;
+    height: 12rem;
+    border-radius: 2rem;
+    background: #F4ECDD;
+    box-sizing: border-box;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3 {
+    width: 22.1rem;
+    height: 12rem;
+    border-radius: 2rem;
+    background: #EFDADA;
+    box-sizing: border-box;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box4 {
+    width: 22.1rem;
+    height: 12rem;
+    border-radius: 2rem;
+    background: #DEE0EF;
+    box-sizing: border-box;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.caption-name {
+    color: #000;
+    font-size: 1.4rem;
+    font-family: Lato;
+    margin-bottom: 0;
+}
+
+.caption-value {
+    margin: 0;
+    color: #000;
+    font-size: 2.4rem;
+    font-family: Open Sans;
+    font-weight: 700;
+}
+
+.caption-icon{
+    width: 2.6rem;
+    height: 2.4rem;
+}

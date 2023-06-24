@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Activites.css";
 import axios from "axios";
-import { LineChart, Line, YAxis, CartesianGrid } from "recharts";
+import { LineChart, Line, XAxis,YAxis, CartesianGrid } from "recharts";
 
 export default function Activites() {
   let [prod, setProd] = useState([]);
@@ -37,8 +37,8 @@ export default function Activites() {
       </div>
       <div className="line-chart">
             <LineChart
-              width={1100}
-              height={250}
+              width={1050}
+              height={270}
               data={prod}
               margin={{
                 top: 15,
@@ -48,12 +48,12 @@ export default function Activites() {
               }}
             >
               <CartesianGrid strokeDasharray="3 3" />
+              <XAxis />
               <YAxis />
               <Line
                 type="monotone"
                 dataKey="price"
                 stroke="#E9A0A0"
-                // activeDot={{ r: 8 }}
               />
               <Line type="monotone" dataKey="rating.count" stroke="#9BDD7C" />
             </LineChart>
